@@ -1,0 +1,581 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="ESSENCE — experiência demonstrativa de uma clínica de odontologia e estética, com design sofisticado e atendimento humanizado.">
+  <title>ESSENCE | Odontologia & Estética</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- CABEÇALHO -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="ESSENCE, início">
+        <span class="brand-name">essence<span class="brand-period">.</span></span>
+        <span class="brand-subtitle">ODONTOLOGIA & ESTÉTICA</span>
+      </a>
+
+      <nav class="navigation" id="navigation" aria-label="Navegação principal">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#conceito" class="nav-link">Nossa essência</a>
+        <a href="#tratamentos" class="nav-link">Tratamentos</a>
+        <a href="#espaco" class="nav-link">Nosso espaço</a>
+        <a href="#experiencia" class="nav-link">Experiência</a>
+        <a href="#contato" class="nav-cta">Agendamento</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-controls="navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <div class="hero-copy-inner">
+            <div class="hero-overline">
+              <span class="overline-mark"></span>
+              <span>UMA NOVA PERSPECTIVA SOBRE O CUIDADO</span>
+            </div>
+
+            <h1>
+              Seu sorriso.<br>
+              Sua melhor<br>
+              <em>essência.</em>
+            </h1>
+
+            <p class="hero-description">
+              Um conceito de cuidado que une ciência, sensibilidade
+              e atenção aos detalhes. Porque sentir-se bem começa
+              com a confiança de ser você.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#tratamentos" class="button button-primary">Conheça os tratamentos</a>
+              <a href="#conceito" class="button-text">Nossa filosofia</a>
+            </div>
+
+            <div class="hero-footer">
+              <span>ESTÉTICA NATURAL</span>
+              <span>TECNOLOGIA</span>
+              <span>BEM-ESTAR</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1600&q=85"
+            alt="Profissional de odontologia durante atendimento clínico"
+            fetchpriority="high">
+
+          <div class="hero-image-label">
+            <span>ESSENCE</span>
+            <span>ODONTOLOGIA CONTEMPORÂNEA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom-line">
+        <div class="container">
+          <span>BELEZA EM SUA FORMA MAIS NATURAL</span>
+          <span>01 / 06</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONCEITO -->
+    <section class="concept section-space" id="conceito">
+      <div class="container">
+        <div class="concept-heading reveal">
+          <span class="eyebrow">01 / NOSSA FILOSOFIA</span>
+          <h2 class="display-heading">
+            A verdadeira beleza<br>
+            está em <em>ser natural.</em>
+          </h2>
+        </div>
+
+        <div class="concept-grid">
+          <div class="concept-photo reveal">
+            <img
+              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1100&q=85"
+              alt="Ambiente de atendimento odontológico contemporâneo"
+              loading="lazy">
+            <span class="image-credit">CUIDADO EM CADA DETALHE</span>
+          </div>
+
+          <div class="concept-content reveal">
+            <span class="section-number">ESSENCE / 001</span>
+
+            <h3>
+              Cuidar vai muito<br>
+              além da estética.
+            </h3>
+
+            <p>
+              Acreditamos que cada sorriso possui uma identidade.
+              Por isso, imaginamos uma experiência que valoriza
+              a individualidade, o conforto e a confiança.
+            </p>
+
+            <p>
+              A ESSENCE é um conceito digital de clínica contemporânea:
+              uma combinação de ambientes acolhedores, comunicação
+              transparente e uma apresentação elegante dos serviços.
+            </p>
+
+            <div class="concept-signature">
+              <span>CIÊNCIA.</span>
+              <span>SENSIBILIDADE.</span>
+              <span>ESSÊNCIA.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRATAMENTOS -->
+    <section class="treatments section-space" id="tratamentos">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <span class="eyebrow">02 / ESPECIALIDADES</span>
+            <h2 class="display-heading">
+              Cuidado que valoriza<br>
+              <em>cada detalhe.</em>
+            </h2>
+          </div>
+
+          <p>
+            Conheça as áreas apresentadas neste conceito
+            de clínica odontológica.
+          </p>
+        </div>
+
+        <div class="treatment-tabs" role="tablist" aria-label="Especialidades odontológicas">
+          <button class="treatment-tab active" id="tab-estetica" type="button" role="tab" aria-selected="true" aria-controls="treatmentPanel" data-treatment="estetica">
+            <span>01</span> Estética dental
+          </button>
+          <button class="treatment-tab" id="tab-implantes" type="button" role="tab" aria-selected="false" aria-controls="treatmentPanel" tabindex="-1" data-treatment="implantes">
+            <span>02</span> Implantes
+          </button>
+          <button class="treatment-tab" id="tab-ortodontia" type="button" role="tab" aria-selected="false" aria-controls="treatmentPanel" tabindex="-1" data-treatment="ortodontia">
+            <span>03</span> Ortodontia
+          </button>
+          <button class="treatment-tab" id="tab-prevencao" type="button" role="tab" aria-selected="false" aria-controls="treatmentPanel" tabindex="-1" data-treatment="prevencao">
+            <span>04</span> Prevenção
+          </button>
+        </div>
+
+        <div class="treatment-panel reveal" id="treatmentPanel" role="tabpanel" aria-labelledby="tab-estetica" tabindex="0">
+          <div class="treatment-image">
+            <img
+              id="treatmentImage"
+              src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1400&q=85"
+              alt="Atendimento odontológico em ambiente clínico"
+              loading="lazy">
+          </div>
+
+          <div class="treatment-content">
+            <span class="eyebrow" id="treatmentCategory">ESTÉTICA E HARMONIA</span>
+            <h3 id="treatmentTitle">Estética dental</h3>
+            <p id="treatmentDescription">
+              Soluções voltadas à aparência e à harmonia do sorriso,
+              sempre considerando as características individuais
+              e a avaliação profissional.
+            </p>
+
+            <ul class="treatment-features" id="treatmentFeatures">
+              <li>Clareamento dental</li>
+              <li>Facetas e restaurações estéticas</li>
+              <li>Planejamento individualizado</li>
+            </ul>
+
+            <a href="#contato" class="text-action">Conhecer a experiência de agendamento</a>
+          </div>
+        </div>
+
+        <p class="medical-note">
+          Conteúdo ilustrativo. A indicação, os riscos e os resultados de qualquer
+          procedimento dependem de avaliação por profissional habilitado.
+        </p>
+      </div>
+    </section>
+
+    <!-- ESPAÇO -->
+    <section class="space section-space" id="espaco">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <span class="eyebrow">03 / AMBIENTES</span>
+            <h2 class="display-heading">
+              Um espaço para<br>
+              <em>sentir-se bem.</em>
+            </h2>
+          </div>
+          <p>
+            Uma galeria visual que apresenta a atmosfera
+            idealizada para uma clínica contemporânea.
+          </p>
+        </div>
+
+        <div class="space-gallery">
+          <button class="gallery-item gallery-main reveal" type="button" data-gallery="0" aria-label="Ampliar fotografia de ambiente clínico">
+            <img
+              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1500&q=85"
+              alt="Interior de clínica odontológica moderna"
+              loading="lazy">
+            <span class="gallery-caption">AMBIENTES / 01</span>
+            <span class="gallery-zoom">AMPLIAR IMAGEM</span>
+          </button>
+
+          <button class="gallery-item reveal" type="button" data-gallery="1" aria-label="Ampliar fotografia de consultório">
+            <img
+              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1100&q=85"
+              alt="Consultório odontológico com equipamentos de atendimento"
+              loading="lazy">
+            <span class="gallery-caption">AMBIENTES / 02</span>
+            <span class="gallery-zoom">AMPLIAR IMAGEM</span>
+          </button>
+
+          <button class="gallery-item reveal" type="button" data-gallery="2" aria-label="Ampliar fotografia de ambiente de atendimento">
+            <img
+              src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1100&q=85"
+              alt="Ambiente de atendimento odontológico"
+              loading="lazy">
+            <span class="gallery-caption">AMBIENTES / 03</span>
+            <span class="gallery-zoom">AMPLIAR IMAGEM</span>
+          </button>
+        </div>
+
+        <p class="gallery-disclaimer">
+          Fotografias ilustrativas independentes. Não representam instalações reais da ESSENCE.
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section class="experience section-space" id="experiencia">
+      <div class="container experience-grid">
+        <div class="experience-intro reveal">
+          <span class="eyebrow">04 / A EXPERIÊNCIA ESSENCE</span>
+          <h2 class="display-heading">
+            Cada etapa.<br>
+            Uma experiência<br>
+            <em>mais humana.</em>
+          </h2>
+          <p>
+            Uma jornada de atendimento idealizada para unir
+            clareza, acolhimento e atenção individualizada.
+          </p>
+        </div>
+
+        <div class="experience-steps">
+          <article class="experience-step reveal">
+            <span class="step-index">01</span>
+            <div>
+              <h3>Primeiro contato</h3>
+              <p>Uma conversa inicial para compreender necessidades e expectativas.</p>
+            </div>
+          </article>
+
+          <article class="experience-step reveal">
+            <span class="step-index">02</span>
+            <div>
+              <h3>Avaliação</h3>
+              <p>Um momento dedicado à análise profissional e ao esclarecimento de dúvidas.</p>
+            </div>
+          </article>
+
+          <article class="experience-step reveal">
+            <span class="step-index">03</span>
+            <div>
+              <h3>Planejamento</h3>
+              <p>Apresentação das possibilidades de cuidado adequadas a cada situação.</p>
+            </div>
+          </article>
+
+          <article class="experience-step reveal">
+            <span class="step-index">04</span>
+            <div>
+              <h3>Acompanhamento</h3>
+              <p>Continuidade do cuidado com orientações e atenção à evolução individual.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MANIFESTO -->
+    <section class="manifesto">
+      <div class="manifesto-image">
+        <img
+          src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=2000&q=85"
+          alt="Atendimento odontológico realizado por profissional de saúde"
+          loading="lazy">
+      </div>
+      <div class="manifesto-shade"></div>
+
+      <div class="container manifesto-content reveal">
+        <span class="eyebrow eyebrow-light">NOSSA VISÃO</span>
+        <h2>
+          A confiança<br>
+          transforma a maneira<br>
+          como <em>sorrimos.</em>
+        </h2>
+        <p>UM CONCEITO DE CUIDADO, ELEGÂNCIA E NATURALIDADE.</p>
+      </div>
+    </section>
+
+    <!-- EQUIPE CONCEITUAL -->
+    <section class="team section-space" id="equipe">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <span class="eyebrow">05 / CUIDADO ESPECIALIZADO</span>
+            <h2 class="display-heading">
+              Pessoas por trás<br>
+              de <em>cada sorriso.</em>
+            </h2>
+          </div>
+          <p>
+            Exemplo de como uma clínica real poderia apresentar
+            sua equipe e suas especialidades.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card reveal">
+            <div class="team-image">
+              <img
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=85"
+                alt="Fotografia ilustrativa de profissional da área da saúde"
+                loading="lazy">
+            </div>
+            <div class="team-info">
+              <h3>Especialista em estética</h3>
+              <p>PERFIL PROFISSIONAL DEMONSTRATIVO</p>
+            </div>
+          </article>
+
+          <article class="team-card reveal">
+            <div class="team-image">
+              <img
+                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=900&q=85"
+                alt="Fotografia ilustrativa de profissional da área da saúde"
+                loading="lazy">
+            </div>
+            <div class="team-info">
+              <h3>Especialista em reabilitação</h3>
+              <p>PERFIL PROFISSIONAL DEMONSTRATIVO</p>
+            </div>
+          </article>
+
+          <article class="team-card reveal">
+            <div class="team-image">
+              <img
+                src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=900&q=85"
+                alt="Fotografia ilustrativa de profissional da área da saúde"
+                loading="lazy">
+            </div>
+            <div class="team-info">
+              <h3>Especialista em prevenção</h3>
+              <p>PERFIL PROFISSIONAL DEMONSTRATIVO</p>
+            </div>
+          </article>
+        </div>
+
+        <p class="team-disclaimer">
+          Imagens ilustrativas. Os perfis acima não identificam profissionais
+          vinculados a uma clínica real.
+        </p>
+      </div>
+    </section>
+
+    <!-- PERGUNTAS FREQUENTES -->
+    <section class="faq section-space" id="duvidas">
+      <div class="container faq-grid">
+        <div class="faq-heading reveal">
+          <span class="eyebrow">06 / INFORMAÇÕES</span>
+          <h2 class="display-heading">
+            Dúvidas<br>
+            <em>frequentes.</em>
+          </h2>
+          <p>
+            Informações gerais que podem ajudar a compreender
+            uma experiência de atendimento odontológico.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item reveal">
+            <summary>Como funciona uma primeira avaliação?</summary>
+            <div class="faq-answer">
+              <p>Em geral, o profissional conversa sobre as necessidades do paciente, realiza a avaliação clínica indicada e explica as possibilidades de cuidado.</p>
+            </div>
+          </details>
+
+          <details class="faq-item reveal">
+            <summary>Todo tratamento é personalizado?</summary>
+            <div class="faq-answer">
+              <p>A escolha do tratamento deve considerar a avaliação profissional, as condições de saúde e as necessidades individuais.</p>
+            </div>
+          </details>
+
+          <details class="faq-item reveal">
+            <summary>É possível conhecer as opções antes de decidir?</summary>
+            <div class="faq-answer">
+              <p>Sim. Antes de qualquer procedimento, é importante esclarecer objetivos, alternativas, riscos, custos e cuidados necessários com um profissional habilitado.</p>
+            </div>
+          </details>
+
+          <details class="faq-item reveal">
+            <summary>O agendamento deste site é real?</summary>
+            <div class="faq-answer">
+              <p>Não. A ESSENCE é um projeto conceitual de portfólio. O agendamento apresentado nesta página é apenas uma demonstração de interface.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO / AGENDAMENTO -->
+    <section class="appointment section-space" id="contato">
+      <div class="container appointment-grid">
+        <div class="appointment-copy reveal">
+          <span class="eyebrow eyebrow-light">ENTRE EM CONTATO</span>
+          <h2>
+            O primeiro passo<br>
+            começa <em>aqui.</em>
+          </h2>
+          <p>
+            Explore como seria a experiência de solicitar
+            uma avaliação em uma clínica odontológica.
+          </p>
+
+          <div class="appointment-note">
+            <span>ESSENCE — PROJETO CONCEITUAL</span>
+            <p>Esta clínica é fictícia. Não há atendimento, agendamento ou envio de dados.</p>
+          </div>
+        </div>
+
+        <div class="appointment-card reveal">
+          <span class="eyebrow">DEMONSTRAÇÃO INTERATIVA</span>
+          <h3>Simule um agendamento.</h3>
+          <p>Utilize apenas informações fictícias para testar a interface.</p>
+
+          <form id="appointmentForm" novalidate>
+            <div class="form-group">
+              <label for="appointmentName">Nome fictício</label>
+              <input
+                type="text"
+                id="appointmentName"
+                name="name"
+                placeholder="Ex.: Pessoa Exemplo"
+                autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <label for="appointmentService">Especialidade</label>
+              <select id="appointmentService" name="service">
+                <option value="">Selecione uma especialidade</option>
+                <option value="estetica">Estética dental</option>
+                <option value="implantes">Implantes</option>
+                <option value="ortodontia">Ortodontia</option>
+                <option value="prevencao">Prevenção</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="appointmentPeriod">Período de preferência</label>
+              <select id="appointmentPeriod" name="period">
+                <option value="">Selecione um período</option>
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+              </select>
+            </div>
+
+            <button type="submit" class="button button-primary form-submit">
+              Simular solicitação
+            </button>
+
+            <p class="form-disclaimer">
+              Nenhum dado é transmitido, armazenado ou utilizado
+              para agendamento real.
+            </p>
+
+            <p id="appointmentFeedback" class="form-feedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div>
+          <a href="#inicio" class="footer-brand">essence<span>.</span></a>
+          <p>ODONTOLOGIA & ESTÉTICA</p>
+        </div>
+
+        <div class="footer-description">
+          <p>Um conceito digital onde estética, tecnologia e sensibilidade se encontram.</p>
+        </div>
+
+        <div class="footer-navigation">
+          <a href="#conceito">Nossa essência</a>
+          <a href="#tratamentos">Tratamentos</a>
+          <a href="#espaco">Ambientes</a>
+          <a href="#contato">Agendamento demonstrativo</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="currentYear">2026</span> ESSENCE. TODOS OS DIREITOS RESERVADOS.</span>
+        <span>PROJETO FICTÍCIO DE PORTFÓLIO — SEM ATENDIMENTO REAL</span>
+        <a href="#inicio">Voltar ao início</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GALERIA AMPLIADA -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" data-close-lightbox></div>
+
+    <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-label="Galeria de ambientes" tabindex="-1">
+      <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Fechar galeria">
+        Fechar
+      </button>
+
+      <div class="lightbox-image-wrap">
+        <img id="lightboxImage" src="" alt="">
+      </div>
+
+      <div class="lightbox-controls">
+        <button type="button" id="lightboxPrevious">Anterior</button>
+        <span id="lightboxCounter">01 / 03</span>
+        <button type="button" id="lightboxNext">Próxima</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
